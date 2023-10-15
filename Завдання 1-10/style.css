@@ -1,0 +1,100 @@
+ th, td {
+    border:1px solid black;
+    padding: 10px;
+  }
+
+  table{
+    margin-right: 30px;
+  }
+
+.pic{
+    width: 200px;
+    height: 200px;
+}
+
+.wrapp{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.pic.active {
+    filter: grayscale(0%);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.pic:not(.active) {
+    filter: grayscale(100%);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.picture{
+    height: 100px;
+    width: 100px;
+}
+
+.section6 {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin: 5px;
+    width: 400px;
+
+}
+
+.active6 {
+    background-color: #87c1e8;
+}
+
+
+.p7{
+    padding-left: 51px;
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(151, 27, 149);
+    transform-origin: center;
+    transition: all 0.3s;
+    margin-left: 30px
+}
+
+.wrapp7{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+
+.wrap9{
+    display: flex;
+}
+
+.slider{
+   width: 150px;
+   height: 150px;
+   overflow: hidden;
+}
+
+.img10{
+   width: 250px;
+   height: 180px;
+}
+
+.slider-line{
+   transition: all ease 1s;
+   width: 500px;
+   height: 150px;
+   display: flex;
+   position: relative;
+}
+
+.slider-next, .slider-prev{
+    margin: 10px;
+}
+
+
+.slider-next:hover, .slider-prev:hover{
+    background-color: rgb(119, 180, 180);
+}
